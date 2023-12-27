@@ -1,6 +1,86 @@
 <html>
-    <head>
-        <style>
+    <head>   
+         <style>
+            @media screen and (min-width: 0px) and (max-width : 770px)   {
+                #divmain{
+                    width:25%;
+                    height: 680px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    opacity: 0.9;
+                    margin-top:-50px;
+                    display:inline-block;
+                    line-height: 70px;
+                    background-color: transparent;            
+                }
+                #divmain a{
+                    font-size: 20px;
+                    margin-left: 60px;
+                }
+                #divmain a:hover{
+                    background-color: pink;
+                    color: black;
+                }
+                #divmain #nav1{
+                    font-size: 20px;
+                    margin-left: 10px;
+                    padding: 10px;
+                }
+                #t{
+                    width:700px;
+                    height:700px;
+                    margin-top:-10px;
+                }
+                #div3 h1{
+                    font-size:7px;
+                    margin-left:40%;
+                    top:20%;
+                    position: absolute;
+                    text-decoration: none;
+
+                }
+                div p{
+                    font-size: 15px;
+                    color: white;
+                    position: absolute;
+                    margin-left: 40%;
+                    margin-top:-110%;
+
+                }
+                #od {
+                    left:30%;
+                    width:70%;
+                    height:10px;
+                    top: 40%;
+                    background-color: none;
+                    display: flex;
+                    flex-wrap: wrap;
+
+                }
+
+                #od div{
+                    width:30%;
+                    height: 100px;
+                }
+                #bd{
+                   position: absolute;
+                   left: 300px;
+                   top:100%;
+                }
+    
+                #bd p{
+                    margin-left:20px;
+                }
+                #bd{
+
+                    position: absolute;
+                    left:80%;
+                    top: 60%;
+                    height: auto;
+                }
+        
+            }   
             #t{
                 position:absolute;
                 opacity:0.9;
@@ -27,37 +107,49 @@
                 margin-left: 2px;
             }
             #nav2{
-                margin-left: 40%;
+                margin-left: 30%;
                 position: relative;
                 font-size: 30px;
                 color: white;
+
                 
             }
             #div3{
-                position: relative;
+                
                 margin-top: 13%;
                 margin-left: 10%;
                 font-size: 40px;
                 color: white;
+            }
+            #div3 h1{
+                
+                font-size: 60px;
+                margin-top: 30px;
+                position: absolute;
+            
+
+                
             }
             p{
                 font-size: 20px;
                 color:white;
                 margin-top:-3% ;
             }
+
             #od{
-                background-color: yellow;
+    
                 width:60%;
                 height: 20%;
                 opacity: 0.5;
                 position:absolute;
                 padding: -1%;
                 margin-left:5% ;
+                top:60%;
             }
             #id{
                 background-color: white;
                 display: inline-block;
-                width:15%;
+                width:16%;
                 height:60%;
                 margin: 3%;
                 margin-left:5%;
@@ -68,15 +160,27 @@
             }
             #bd{
                 background-color: black;
-                width:15%;
+                width:20%;
                 height:20%;
                 display: inline-block;
-                float: right;
-                margin-bottom:9%;
-                margin-right:19%;
+                float : right;
+                margin-bottom : 9%;
+                margin-right:15%;
                 opacity:0.9;
+                margin-top:7.5%;
+            }
+            #bd p{
+
+                margin-top: -30%;
+                margin-right: 40px;
+                position: absolute;
+                color: white;
+                background-color: black;
 
             }
+            
+            
+            
             
     
         </style>
@@ -87,7 +191,7 @@
         <br>
         <div id="div1">
 
-            <div id="divmain">
+            <div id="divmain" >
          <a id="nav1">ROXANDREA</a>  <a id="nav2"> Home</a> <a id="nav">About</a> <a id="nav">More</a> <a id="nav">Contact</a>
             </div>
 
@@ -118,16 +222,13 @@
                 <div id="id">
                     <center> <h5>Check-In Date</h5>
                         <h4>Check-In-Date</h4></center>
-        
-
-                </div>
+            </div>
                
             </div>
         </div>
         <div id="bd">
-            <bR>
+            <br>
             <center><h3 style="color:gold">Check Availability</h3>
-            <p style="font-size:15px">Best Price Quarentined</p></center>
         </div>
 
     </body>
