@@ -1,0 +1,48 @@
+Date-11012024
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*repeated of for loop ques below
+
+var a=prompt("enter the string");
+for(i=0;i<a.length;i++){
+    if(a[i]%2==0){
+        for(j=0;j<a[i];j++){
+            console.log("it as even:",a[i]);
+        }
+    }else{
+         for(h=0;h<a[i];h++){
+            console.log("it is an odd",a[i]);
+        }
+    }
+}
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*for loop use chesi 1)even number aithe anni tyms print cheyali ---like 2  ni 2 tyms,4 ni 4tyms
+
+var a=prompt("enter the string");
+for(i=0;i<a.length;i++){
+    if(a[i]%2==0){
+        for(j=0;j<a[i];j++){
+            console.log("-----------------------")
+            console.log("it as even:",a[i]);
+        }
+    }else{
+         for(h=0;h<a[i];h++){
+             console.log("------------------------")
+            console.log("it is an odd",a[i]);
+        }
+    }
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*Table task
+
+var a=prompt("enter the starting table:");
+var b=prompt("enter the ending table:");
+for(i=a;i<=b;i++){
+    for(j=1;j<=10;j++){
+        console.log(i+"*"+j+"="+i*j)
+    }
+}
+
